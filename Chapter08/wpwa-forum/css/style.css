@@ -1,0 +1,122 @@
+#wpwaf_custom_panel{
+    
+    background: #FFF;
+    min-height: 200px;
+    max-width: 600px;
+    margin: auto;
+    background : #efefef;
+    border:1px solid #cfcfcf;
+}
+#wpwaf_custom_panel ul{
+    margin: 0;
+    padding: 0;
+}
+#wpwaf_custom_panel li{
+    list-style: none;
+    width: 100%;
+}
+
+#wpwaf_custom_panel p{
+    margin: 0 !important;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_label{
+    width: 30%;
+    float: left;
+    font-weight: normal;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_field{
+    background: none repeat scroll 0 0 #F8F8F8;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_error{
+    color: #E43232;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0;
+    width: 86%;
+}
+
+#wpwaf_info_message{
+    padding: 3%;
+    font-weight: bold;
+    background: #E6E6FE;
+}
+
+.wpwaf_frm_success{
+    color: #57A125;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0;
+    width: 86%;
+}
+
+#wpwaf-registration-errors,#wpwaf-login-errors{
+    padding: 10px 20px;
+    background: #f9f9f9;
+}
+
+.wpwaf-registration-form-header,.wpwaf-login-form-header{
+    padding: 10px;
+    background: #cfcfcf;
+    font-weight: bold;
+}
+
+#wpwaf-registration-form,#wpwaf_login_form{
+    padding: 10px 20px;
+}
+
+/* Styles for forum list shortcode */
+.wpwaf_forum_list{
+    padding: 20px;
+    margin: 10px;
+    background: #eeeeee;
+}
+
+.wpwaf_forum_list_header{
+    padding: 10px;
+    color: #fff;
+    background: #8aa6ed;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wpwaf_forum_list_name{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    width: 75%;
+}
+
+.wpwaf_forum_list_count{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+
+}
+
+.wpwaf_clear{
+    clear: both;
+}
+
+.wpwaf_forum_list_count{
+    text-align: center;
+}
+
+.wpwaf_forum_list_item_head{
+    background: #cfcfcf;
+}
+
+.wpwaf_forum_list_item{
+    background: #fff;
+}
