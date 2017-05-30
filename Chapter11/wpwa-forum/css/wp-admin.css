@@ -1,0 +1,114 @@
+#adminmenuback,
+#adminmenuwrap {
+    background: #000;
+}
+
+#adminmenu a{
+    color : #FFF;
+}
+
+#adminmenu a.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
+    border-bottom-color: #191A1B;
+    border-top-color: #191A1B;
+}
+
+#adminmenu .wp-submenu, .folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    background-color: #363636;
+}
+
+#adminmenu li.wp-menu-separator {
+    background: none repeat scroll 0 0 #DFDFDF;
+    border-color: #454545;
+}
+
+#adminmenu div.separator {
+    background:#000;
+}
+
+#adminmenu li.wp-menu-separator {
+    background: none repeat scroll 0 0 #000;
+    border-color: #000;
+}
+
+#adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover {
+    color: #FFFFFF;
+}
+
+#adminmenu .wp-submenu a:hover,
+#adminmenu .wp-submenu a:focus {
+    background-color: #d54e21;
+    color: #fff;
+}
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+    background-color: #d54e21;
+    color:#fff;
+    font-weight:bold;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    background: #d54e21 !important;
+}
+#adminmenu .wp-menu-arrow div {
+    background:#d54e21 !important;
+}
+
+a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, #media-items a.delete-permanently, .plugins a.delete, .ui-tabs-nav a {
+    color: #FFFFFF;
+}
+
+
+
+/*------------------------------------------------------------------------------
+
+
+Hello, this is the main WordPress admin CSS file.
+All the important stuff is in here.
+
+
+TABLE OF CONTENTS:
+------------------
+ 1.0 - Text Elements
+ 2.0 - Forms
+ 3.0 - Actions
+ 4.0 - Notifications
+ 5.0 - TinyMCE
+ 6.0 - Admin Header
+	6.1 - Screen Options Tabs
+	6.2 - Help Menu
+ 7.0 - Main Navigation
+ 8.0 - Layout Blocks
+ 9.0 - Dashboard
+10.0 - List Posts
+	10.1 - Inline Editing
+11.0 - Write/Edit Post Screen
+	11.1 - Custom Fields
+	11.2 - Post Revisions
+	11.3 - Featured Images
+12.0 - Categories
+13.0 - Tags
+14.0 - Media Screen
+	14.1 - Media Library
+	14.2 - Image Editor
+15.0 - Comments Screen
+16.0 - Themes
+	16.1 - Custom Header
+	16.2 - Custom Background
+	16.3 - Tabbed Admin Screen Interface
+17.0 - Plugins
+18.0 - Users
+19.0 - Tools
+20.0 - Settings
+21.0 - Admin Footer
+22.0 - About Pages
+23.0 - Full Overlay w/ Sidebar
+24.0 - Customize Loader
+25.0 - Misc
+
+------------------------------------------------------------------------*/
+
+
+
+

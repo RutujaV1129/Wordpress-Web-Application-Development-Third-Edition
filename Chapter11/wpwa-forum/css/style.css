@@ -1,0 +1,283 @@
+#wpwaf_custom_panel{
+    
+    background: #FFF;
+    min-height: 200px;
+    max-width: 600px;
+    margin: auto;
+    background : #efefef;
+    border:1px solid #cfcfcf;
+}
+#wpwaf_custom_panel ul{
+    margin: 0;
+    padding: 0;
+}
+#wpwaf_custom_panel li{
+    list-style: none;
+    width: 100%;
+}
+
+#wpwaf_custom_panel p{
+    margin: 0 !important;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_label{
+    width: 30%;
+    float: left;
+    font-weight: normal;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_field{
+    background: none repeat scroll 0 0 #F8F8F8;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+#wpwaf_custom_panel .wpwaf_frm_error{
+    color: #E43232;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0;
+    width: 86%;
+}
+
+#wpwaf_info_message{
+    padding: 3%;
+    font-weight: bold;
+    background: #E6E6FE;
+}
+
+.wpwaf_frm_success{
+    color: #57A125;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0;
+    width: 86%;
+}
+
+#wpwaf-registration-errors,#wpwaf-login-errors{
+    padding: 10px 20px;
+    background: #f9f9f9;
+}
+
+.wpwaf-registration-form-header,.wpwaf-login-form-header{
+    padding: 10px;
+    background: #cfcfcf;
+    font-weight: bold;
+}
+
+#wpwaf-registration-form,#wpwaf_login_form{
+    padding: 10px 20px;
+}
+
+/* Styles for forum list shortcode */
+.wpwaf_forum_list{
+    padding: 20px;
+    margin: 10px;
+    background: #eeeeee;
+}
+
+.wpwaf_forum_list_header{
+    padding: 10px;
+    color: #fff;
+    background: #8aa6ed;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wpwaf_forum_list_name{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    width: 75%;
+}
+
+.wpwaf_forum_list_count{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+
+}
+
+.wpwaf_clear{
+    clear: both;
+}
+
+.wpwaf_forum_list_count{
+    text-align: center;
+}
+
+.wpwaf_forum_list_item_head{
+    background: #cfcfcf;
+}
+
+.wpwaf_forum_list_item{
+    background: #fff;
+}
+
+/* Social Login */
+.wpwaf-social-link{
+    margin: 5px;
+    background: #ADADAD;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Topic Creation Frontend */
+#wpwaf_topic_add_panel .field_row{
+    padding: 10px 0;
+}
+
+#wpwaf_topic_add_panel .field_label{
+    font-weight: bold;
+}
+
+#wpwaf_topic_add_panel .field_value{
+    
+}
+
+#wpwaf_topic_add_panel input[type='text'], 
+#wpwaf_topic_add_panel textarea,
+#wpwaf_topic_add_panel select{
+    width: 60%;
+    min-height: 30px;
+}
+
+/* Single Forum Page */
+
+#wpwaf_topic_info,#wpwaf_forum_info{
+    border: 1px solid #cfcfcf;
+    float: left;
+    padding: 10px;
+    width: 90%;
+}
+
+
+#wpwaf_forum_info_left,#wpwaf_topic_info_left{
+    width: 65%;
+    float: left;
+}
+
+#wpwaf_forum_info_right,#wpwaf_topic_info_right{
+    width: 35%;
+    float: right;
+}
+
+#wpwaf_forum_topics{
+    width: 100%;
+}
+
+.wpwaf_topic_author_image{
+    float: left;
+}
+
+.wpwaf_forum_topic .wpwaf_topic_title{
+    font-weight: bold;
+    padding: 0 10px 20px;
+}
+
+.wpwaf_forum_topic .wpwaf_topic_reply{
+    padding: 0 10px 20px;
+}
+
+.wpwaf_forum_topic{
+    padding: 10px;
+    background: #eee;
+    outline: 1px solid #cfcfcf;
+    margin: 5px 0;
+}
+
+
+.wpwaf_topic_stats{
+    width: 48%;
+    float: left;
+}
+
+.wpwaf_topic_stats span{
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.wpwaf_topic_right{
+    float: left;
+    width: 85%;
+}
+
+.wpwaf_topic_started_date,.wpwaf_topic_last_reply_date{
+    /*float: right;*/
+}
+
+#wpwaf_topic_content{
+    width: 100%;
+    height: 150px;
+}
+
+#wpwaf_topic_title{
+    width: 100%;
+}
+
+.wpwaf_topic_msg_error,.wpwaf_forum_msg_error{
+    color: #E43232;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    background: #f9f9f9;
+    padding: 10px;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.wpwaf_topic_msg_success,.wpwaf_forum_msg_success{
+    color: #57A125;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    width: 90%;
+    margin: 10px 0;
+    background: #f9f9f9;
+}
+
+.wpwaf_create_topics_label{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#wpwaf_create_topics form,
+#wpwaf_create_replies form{
+    margin: 0 !important;
+}
+
+.wpwaf_topic_sticky_status{
+    float: right;
+    padding: 10px;
+    color: #fff;
+    background: #1874cd;
+}
+
+
+#wpwaf_forum_join,#wpwaf_forum_member{
+    padding: 5px;
+    background: #1874cd;
+    color: #fff;
+    width: 125px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wpwaf_forum_admin_image{
+    float:left;
+    margin : 0 10px;
+}
+
+.forum_member_profile_panel .field_label{
+    font-weight: bold;
+}

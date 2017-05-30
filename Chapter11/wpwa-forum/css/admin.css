@@ -1,0 +1,27 @@
+.wpwaf_topic_meta_row{
+    padding: 10px
+}
+
+.wpwaf_topic_meta_row_label{
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.wpwaf_topic_meta_row_field{
+    float: left;
+    min-width: 500px;
+}
+
+.wpwaf_topic_meta_row_field input[type='text'],.wpwaf_topic_meta_row_field textarea,.wpwaf_topic_meta_row_field select{
+    width: 300px;
+}
+
+.wpwaf-clear{
+	clear: both;
+}
+
+#wpwaf_topic_role_panel{
+    display: none;
+}

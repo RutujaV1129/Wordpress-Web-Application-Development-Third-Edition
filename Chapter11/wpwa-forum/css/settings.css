@@ -1,0 +1,41 @@
+#wpwaf-settings-panel{
+     background: none repeat scroll 0 0 #fff;
+    border: 1px solid #cfcfcf;
+    margin: 20px 20px 20px 0;
+    padding: 0 0 20px;
+}
+
+#wpwaf-settings-panel h2{
+    background: none repeat scroll 0 0 #78a6de;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 !important;
+}
+
+.wpwaf-settings-tab{
+    background: none repeat scroll 0 0 #a2cfff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.wpwaf-settings-content{
+    background: none repeat scroll 0 0 #f7f7f7;    
+    padding: 10px ;
+}
+
+.wpwaf-settings-tab-content .label {
+    float: left;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.wpwaf-settings-tab-content .field{
+    
+}
+
+#wpwaf_settings_submit{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    margin-top: 10px;
+}
